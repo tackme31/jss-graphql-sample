@@ -4,3 +4,6 @@ fields:
   newsTitle: Sample News
   newsContent: |
     <p>This is a sample news.</p>
+placeholders:
+  jss-main:
+    - componentName: NewsContent
