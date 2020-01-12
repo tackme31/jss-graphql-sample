@@ -1,0 +1,14 @@
+template: NewsPage
+fields:
+  pageTitle: Sitecore Experience Management Training Course on Udemy | Sitecore
+  newsTitle: Sitecore Experience Management Training Course on Udemy
+  newsContent: |
+    <p>Friends,</p>
+    <p>Happy New Year! A new Sitecore online training course on content editing is now live on Udemy - Sitecore Experience Management Fundamentals.</p>
+    <p>To read about what sets this course apart from the others take a look at the Sitecore training course overview page on my website. The training includes video lectures, tests, practice assignments, and useful references. In addition to simple content authoring mechanics I've shared my personal tips and tricks, common content author "gotchas" and ways to troubleshoot them, as well as insights into the upcoming changes in Sitecore.</p>
+    <p>Udemy constantly runs promotions on their courses, in fact there is one running now, however, if you miss out, click on the "Get the deal" button in the top read bar alert on https://www.cmsbestpractices.com/ and you'll get a discount of $190, bringing the price down to $9.99. If your company has a Udemy business account - then this course should be included in your subscription!</p>
+    <p>Feel free to contact me here, on Twitter, or on any other Sitecore community channel with any questions; I am always happy to help.</p>
+    <p>Lastly, your feedback and reviews are greatly appreciated!</p>
+placeholders:
+  jss-main:
+    - componentName: NewsContent

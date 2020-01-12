@@ -1,0 +1,33 @@
+template: NewsPage
+fields:
+  pageTitle: Sitecore User Group Conference - SUGCON 2020 | Sitecore
+  newsTitle: Sitecore User Group Conference - SUGCON 2020
+  newsContent: |
+    <p>The Sitecore User Group Conference (SUGCON) brings the Sitecore user community together and provides the perfect platform to gain knowledge and get inspired by the potential within Sitecore Experience Cloud, Experience Commerce, Content Hub and more.</p>
+    <p>We are planning at least 3 conferences in 2020:</p>
+    <ul>
+      <li>
+        SUGCON Europe March 26&27 in Budapest, Hungary
+        <ul>
+          <li>Call for speakers open until 12th Jan: https://sessionize.com/sugcon-europe-2020/</li>
+          <li>Tickets are available here: https://sugcon-europe-2020.eventbrite.com/</li>
+        </ul>
+      </li>
+      <li>
+        SUGCON India is planned early May
+        <ul>
+          <li>Please let us know you preference for date and location: https://www.research.net/r/SUGCONIndia2020</li>
+        </ul>
+      </li>
+      <li>
+        SUGCON Australia and New Zealand (ANZ) is planned in August in Melbourne
+        <ul>
+          <li>More information coming soon!</li>
+          <li>Read about the last event on this blog: https://robearlam.com/blog/SUGCON-ANZ-2019</li>
+        </ul>
+      </li>
+    </ul>
+    <p>Please let us know if you have any question and we are looking forward to have you at one of the events!</p>
+placeholders:
+  jss-main:
+    - componentName: NewsContent

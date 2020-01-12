@@ -1,0 +1,15 @@
+template: NewsPage
+fields:
+  pageTitle: Analytics Database Manager 4 is released | Sitecore
+  newsTitle: Analytics Database Manager 4 is released
+  newsContent: |
+    <p>The new versions of ADM 4.0.0 and 4.1.0 work with Sitecore 9.0 and 9.1 correspondingly.</p>
+    <p>These versions of ADM has the following functional:</p>
+    <ul>
+      <li>Remove all data for contacts that do not have interactions after the specified date.</li>
+      <li>Remove all data for a specific contact defined by the contact id or source and identifier.</li>
+    </ul>
+    <p>The module is available on the marketplace - https://marketplace.sitecore.net/Modules/Analytics_Database_Manager.aspx?sc_lang=en</p>
+placeholders:
+  jss-main:
+    - componentName: NewsContent

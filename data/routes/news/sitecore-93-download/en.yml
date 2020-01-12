@@ -1,0 +1,11 @@
+template: NewsPage
+fields:
+  pageTitle: Download Sitecore 9.3 today! | Sitecore
+  newsTitle: Download Sitecore 9.3 today!
+  newsContent: |
+    <p>You can now download Sitecore 9.3 from dev.sitecore.net! Also now available is the installation module for the new Horizon editing interface.</p>
+    <p>Some additional details and references on our blog: https://community.sitecore.net/technical_blogs/b/technical-marketing/posts/sitecore-experience-platform-9-3-available-for-download</p>
+    <p><b>Jason St-Cyr</b> | Manager, Technical Evangelists, Sitecore<br>@StCyrThoughts</p>
+placeholders:
+  jss-main:
+    - componentName: NewsContent

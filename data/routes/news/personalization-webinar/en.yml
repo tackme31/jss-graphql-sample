@@ -1,0 +1,11 @@
+template: NewsPage
+fields:
+  pageTitle: Professional Services Personalization Webinar | Sitecore
+  newsTitle: Professional Services Personalization Webinar
+  newsContent: |
+    <p>In this webinar, we will discuss the top challenges facing Professional Services marketing teams, how personalization can help, case studies of professional services companies finding success with Personalization, and how to get started.</p>
+    <p>Join us tomorrow (10/3) @ 3PM ET or watch it on demand.</p>
+    <p>https://www.rdacorp.com/personalization-webinar-for-proserv</p>
+placeholders:
+  jss-main:
+    - componentName: NewsContent
