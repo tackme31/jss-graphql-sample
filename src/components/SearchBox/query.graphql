@@ -1,0 +1,5 @@
+query SeachNews($term: String!) {
+    search(term: $term) {
+        name
+    }
+}
