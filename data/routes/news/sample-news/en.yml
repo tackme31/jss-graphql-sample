@@ -1,0 +1,6 @@
+template: NewsPage
+fields:
+  pageTitle: Sample News | Sitecore
+  newsTitle: Sample News
+  newsContent: |
+    <p>This is a sample news.</p>
