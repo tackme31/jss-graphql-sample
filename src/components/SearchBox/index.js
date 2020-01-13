@@ -15,7 +15,7 @@ const SearchBox = (props) => {
 
   // クエリを実行するにはuseQueryを使用します。
   // refetchを使用することで、変数を変えてクエリを再実行できます。
-  const { loading, error, data, refetch } = useQuery(SearchNewsQuery, { variables: { term: null } });
+  const { loading, error, data, refetch } = useQuery(SearchNewsQuery, { skip: true });
 
   if (error) {
     return <p>{error.message}</p>;
