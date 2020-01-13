@@ -1,7 +1,10 @@
 # SUGJP JSS Sample
-第1回Sitecore User Group Meetupのサンプルコードです。
+第1回Sitecore User Group Meetupのサンプルコードです。  
+まだグループに参加していない方は、以下のURLから申請をお願いいたします。
 
-## システム要件
+- [SUG日本 - Google グループ](https://groups.google.com/forum/#!forum/sugnihon)
+
+## 環境要件
 このプロジェクトは以下の環境で検証されています。
 
 - Sitecore Experience Platform 9.3.0
@@ -38,12 +41,19 @@
 > jss start:connected
 ```
 
-## 追加・変更したファイル
-以下のコマンドで確認してください。
+## 追加・変更箇所
+以下のコマンドで、Reactサンプルプロジェクトからの変更点をご確認いただけます。
 
 ```powershell
 > git diff --name-only $(git rev-list --max-parents=0 HEAD)
 ```
 
+## 参考リンク
+- [SUG日本 - Google グループ](https://groups.google.com/forum/#!forum/sugnihon)
+- [Home | Sitecore JSS Documentation](https://jss.sitecore.com/)
+- [Sitecore JavaScript Services クイックスタート - YouTube](https://www.youtube.com/playlist?list=PL35wZQvLcxOisI2D_0VFpmjzd255StIwg)
+- [Sitecore JSSでページ間で共通のヘッダーを作成する - DEV Community 👩‍💻👨‍💻](https://dev.to/xirtardauq/sitecore-jss-2k1p)
+- [Simple search form in REACT using hooks 🔎. - DEV Community 👩‍💻👨‍💻](https://dev.to/asimdahall/simple-search-form-in-react-using-hooks-42pg)
+
 ## 作者
-- Takumi Yamada (xirtardauq@gmail.com)
+- [山田 拓実 (xirtardauq)](https://www.linkedin.com/in/xirtardauq/)
