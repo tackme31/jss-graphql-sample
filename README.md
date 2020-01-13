@@ -24,7 +24,7 @@
 
 4. IISでサイトのバインディングに`sugjp-jss-sample.dev.local`を追加します。(hostsにも追加する必要があります)
 
-1. [プロジェクトをセットアップします。](https://jss.sitecore.com/docs/getting-started/app-deployment#step-1-setup-connection-information)
+1. 先ほど設定したAPIキーとホスト名で[プロジェクトをセットアップします。](https://jss.sitecore.com/docs/getting-started/app-deployment#step-1-setup-connection-information)  
 
 ```powershell
 > npm install -g @sitecore-jss/sitecore-jss-cli # JSS CLIをインストール
