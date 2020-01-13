@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { loader } from 'graphql.macro';
 import { withApollo } from 'react-apollo';
 
@@ -23,7 +23,7 @@ const SearchBox = (props) => {
       variables: { term: searchTerm }
     });
 
-    setSearchResults(data.search.results);
+    setSearchResults(data.search.results.items);
   }
 
   return (
@@ -39,10 +39,10 @@ const SearchBox = (props) => {
           検索結果の一覧を表示しています。searchResultsの値が変更されるたびに更新されます。
           各リストアイテムには一意なキーを設定する必要があるため、key属性にアイテムIDを渡しています。
         */}
-        {searchResults.map(item => (
+        {searchResults.map(({item}) => (
           <li key={item.id}>
-            {/* Routeコンポーネントでリンクを生成しています。 */}
-            <Route path={item.url}>{item.name}</Route>
+            {/* Linkコンポーネントでリンクを生成しています。 */}
+            <Link to={item.url}>{item.newsTitle.value}</Link>
           </li>
         ))}
       </ul>

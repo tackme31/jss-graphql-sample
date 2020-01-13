@@ -1,5 +1,23 @@
-query SeachNews($term: String!) {
-    search(term: $term) {
-        name
+query SearchNewsQuery($term: String!) {
+  search(
+    rootItem: "/sitecore/content/sugjp-jss-sample/home/news",
+    keyword: $term,
+    fieldsEqual: [
+      { name: "_templatename", value: "NewsPage" }
+    ]
+  ) {
+    results {
+      items {
+      	item {
+          ...on NewsPage {
+            id,
+            url,
+            newsTitle {
+              value
+            }
+          }
+        }
+    	}
     }
+  }
 }
