@@ -17,14 +17,6 @@ const SearchBox = (props) => {
   // refetchを使用することで、変数を変えてクエリを再実行できます。
   const { loading, error, data, refetch } = useQuery(SearchNewsQuery, { skip: true });
 
-  if (error) {
-    return <p>{error.message}</p>;
-  }
-
-  if (loading) {
-    return <p>loading</p>;
-  }
-
   return (
     <div>
       {/* 検索ボックスの値が変更されるたびに、searchTermの値を変更しています。 */}
@@ -38,7 +30,7 @@ const SearchBox = (props) => {
           クエリの取得結果を表示しています。
           各リストアイテムには一意なキーを設定する必要があるため、key属性にアイテムIDを渡しています。
         */}
-        {data.search.results.items.map(({ item }) => (
+        {error || loading || data.search.results.items.map(({ item }) => (
           <li key={item.id}>
             {/* Linkコンポーネントでリンクを生成しています。 */}
             <Link to={item.url}>{item.newsTitle.value}</Link>
