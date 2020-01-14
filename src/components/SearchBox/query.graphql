@@ -1,4 +1,4 @@
-query SearchNewsQuery($term: String = null) {
+query SearchNewsQuery($term: String) {
   search(
     rootItem: "/sitecore/content/sugjp-jss-sample/home/news",
     keyword: $term,
