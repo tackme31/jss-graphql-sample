@@ -20,12 +20,12 @@
 1. リポジトリをクローンし、NPMパッケージを復元します。
 
 ```powershell
-> git clone https://github.com/xirtardauq/sugjp-jss-sample.git
-> cd ./sugjp-jss-sample
+> git clone https://github.com/xirtardauq/jss-graphql-sample.git
+> cd ./jss-graphql-sample
 > npm install
 ```
 
-4. IISでサイトのバインディングに`sugjp-jss-sample.dev.local`を追加します。(hostsにも追加する必要があります)
+4. IISでサイトのバインディングに`jss-graphql-sample.dev.local`を追加します。(hostsにも追加する必要があります)
 
 1. 先ほど設定したAPIキーとホスト名で[プロジェクトをセットアップします。](https://jss.sitecore.com/docs/getting-started/app-deployment#step-1-setup-connection-information)  
 

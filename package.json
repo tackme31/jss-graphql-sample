@@ -1,16 +1,16 @@
 {
-  "name": "sugjp-jss-sample",
+  "name": "jss-graphql-sample",
   "description": "Application utilizing Sitecore JavaScript Services and React (create-react-app).",
   "version": "13.0.0",
   "private": true,
   "config": {
-    "appName": "sugjp-jss-sample",
+    "appName": "jss-graphql-sample",
     "rootPlaceholders": [
       "jss-main"
     ],
-    "sitecoreDistPath": "/dist/sugjp-jss-sample",
+    "sitecoreDistPath": "/dist/jss-graphql-sample",
     "sitecoreConfigPath": "/App_Config/Include/zzz",
-    "graphQLEndpointPath": "/api/sugjp-jss-sample",
+    "graphQLEndpointPath": "/api/jss-graphql-sample",
     "language": "en",
     "tunnelUrl": "http://jss.ngrok.io"
   },
