@@ -1,8 +1,5 @@
-# SUGJP JSS Sample
-第1回Sitecore User Group Meetupのサンプルコードです。  
-まだグループに参加していない方は、以下のURLから申請をお願いいたします。
-
-- [SUG日本 - Google グループ](https://groups.google.com/forum/#!forum/sugnihon)
+# JSS+GraphQL Sample
+JSSとGraphQLによる検索機能の実装サンプルです。
 
 ## 環境要件
 このプロジェクトは以下の環境で検証されています。
@@ -49,11 +46,10 @@
 ```
 
 ## 参考リンク
-- [SUG日本 - Google グループ](https://groups.google.com/forum/#!forum/sugnihon)
 - [Home | Sitecore JSS Documentation](https://jss.sitecore.com/)
 - [Sitecore JavaScript Services クイックスタート - YouTube](https://www.youtube.com/playlist?list=PL35wZQvLcxOisI2D_0VFpmjzd255StIwg)
-- [Sitecore JSSでページ間で共通のヘッダーを作成する - DEV Community 👩‍💻👨‍💻](https://dev.to/xirtardauq/sitecore-jss-2k1p)
+- [Sitecore JSSで簡単なページを作ってみる - DEV Community 👩‍💻👨‍💻](https://dev.to/xirtardauq/sitecore-jss-546g)
 - [Simple search form in REACT using hooks 🔎. - DEV Community 👩‍💻👨‍💻](https://dev.to/asimdahall/simple-search-form-in-react-using-hooks-42pg)
 
 ## 作者
-- [山田 拓実 (xirtardauq)](https://www.linkedin.com/in/xirtardauq/)
+- [山田 拓実 (xirtardauq)](https://twitter.com/xirtardauq)
