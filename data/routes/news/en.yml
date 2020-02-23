@@ -2,4 +2,4 @@ fields:
   pageTitle: News | Sitecore
 placeholders:
   jss-main:
-    - componentName: SearchBox
+    - componentName: NewsSearch
