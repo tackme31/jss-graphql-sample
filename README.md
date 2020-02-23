@@ -1,5 +1,7 @@
 # JSS+GraphQL Sample
-JSSとGraphQLによる検索機能の実装サンプルです。
+JSSとGraphQLによる検索機能の実装サンプルです。以下の記事で解説を行っているので併せてご覧ください。
+
+- [Sitecore JSS + GraphQLで検索機能を実装する - DEV Community 👩‍💻👨‍💻](https://dev.to/xirtardauq/sitecore-jss-graphql-33id-temp-slug-5215672)
 
 ## 環境要件
 このプロジェクトは以下の環境で検証されています。
