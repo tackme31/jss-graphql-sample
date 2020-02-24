@@ -23,7 +23,7 @@ const NewsSearch = (props) => {
       {/* 検索ボックスの値が変更されるたびに、searchTermの値を変更しています。 */}
       <input type="text" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
 
-      {/* 検索ボタンをクリックすると、refetchを呼び検索処理を再実行しています。 */}
+      {/* 検索ボタンをクリックするとfetchNewsを呼び検索処理を実行しています。 */}
       <input type="button" value="Search" onClick={() => fetchNews({ variables: { term: searchTerm }})} />
 
       <ul>
